@@ -3,10 +3,8 @@ class Reverse
 {
   public static void main(String[] args)
   {
-    int num,rem,rev=0;
-    System.out.println("Enter a number");
+    int num=21,rem,rev=0;
     Scanner sc=new Scanner(System.in);
-    num=sc.nextInt();
     while(num>0)
     {
       rem=num%10;
